@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: #FFFFFF;
+    font-family: "press Start 2P";
+}
+
+p{
+    color: #00FF73;
+    font-family: "Roboto Mono", "consolas", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-decoration: dotted underline cyan;
+    font-size: 18px;;
+}
