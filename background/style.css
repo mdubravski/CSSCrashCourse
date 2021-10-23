@@ -1,0 +1,19 @@
+h1{
+    background: linear-gradient(to left,crimson, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    background: linear-gradient(to right,crimson, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    background-image: url(nasa-Yj1M5riCKk4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,94 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background-color: dodgerblue;
+    line-height: 200px;
+    text-align: center;
+    font-size: 100px;
+
+
+
+    /*animation: duration, timingfunct, delay, inter count, playstate, animation name;*/
+}
+
+.box1:hover{
+    animation: mySlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background-color: tomato;
+    line-height: 200px;
+    text-align: center;
+    font-size: 100px;
+
+
+}
+
+.box2:active{
+    animation: mySlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background-color: greenyellow;
+    line-height: 200px;
+    text-align: center;
+    font-size: 100px;
+
+    animation: mySlideTop;
+    animation-duration: 5s;
+    animation-iteration-count: linear;
+    animation-timing-function: linear;
+}
+
+.box4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    background-color: salmon;
+    line-height: 200px;
+    text-align: center;
+    font-size: 100px;
+
+    animation: myRotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes mySlide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+@keyframes mySlideRight {
+    from{margin-right: 100%;}
+    to{margin-right: 0%;}
+}
+
+@keyframes mySlideTop {
+    from{margin-top: 100%;}
+    to{margin-top: 0%;}
+}
+
+@keyframes myRotate{
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
